@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy to VM
         run: |
-          ssh user@${{ secrets.VM_IP }} "
-          cd /path/to/your/project &&
+          ssh amitshendgepro@${{ secrets.VM_IP }} "
+          cd /cii &&
           git pull origin main &&
-          docker-compose up -d --build || systemctl restart your-app-service"
+          mkdir abcd
