@@ -25,4 +25,4 @@ jobs:
           ssh amitshendgepro@${{ secrets.VM_IP }} "
           cd /cii &&
           git pull origin main &&
-          mkdir abcd
+          mkdir abcd"
